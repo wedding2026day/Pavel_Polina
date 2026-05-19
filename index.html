@@ -85,6 +85,7 @@
 
   <form
     class="wedding-form"
+    id="wedding-form"
     action="https://api.web3forms.com/submit"
     method="POST"
   >
@@ -100,7 +101,7 @@
     <input
       class="form-input"
       type="text"
-      name="name"
+      name="имя"
       placeholder="Ваше ФИО"
       required
     >
@@ -109,7 +110,7 @@
     <input
       class="form-input"
       type="text"
-      name="plus_one"
+      name="ФИО +1"
       placeholder="ФИО +1 (необязательно)"
     >
 
@@ -124,7 +125,7 @@
       <label class="radio-label">
         <input
           type="radio"
-          name="attendance"
+          name="Присутствие"
           value="Да, с удовольствием"
           required
         >
@@ -134,7 +135,7 @@
       <label class="radio-label">
         <input
           type="radio"
-          name="attendance"
+          name="Присутствие"
           value="К сожалению, не смогу"
         >
         <span>К сожалению, не смогу</span>
@@ -151,47 +152,47 @@
       </p>
 
       <label class="checkbox-label">
-        <input type="checkbox" name="alcohol[]" value="Водка">
+        <input type="checkbox" name="алкоголь[]" value="Водка">
         <span>Водка</span>
       </label>
 
       <label class="checkbox-label">
-        <input type="checkbox" name="alcohol[]" value="Коньяк">
+        <input type="checkbox" name="алкоголь[]" value="Коньяк">
         <span>Коньяк</span>
       </label>
 
       <label class="checkbox-label">
-        <input type="checkbox" name="alcohol[]" value="Белое вино">
+        <input type="checkbox" name="алкоголь[]" value="Белое вино">
         <span>Белое вино</span>
       </label>
 
       <label class="checkbox-label">
-        <input type="checkbox" name="alcohol[]" value="Красное вино">
+        <input type="checkbox" name="алкоголь[]" value="Красное вино">
         <span>Красное вино</span>
       </label>
 
       <label class="checkbox-label">
-        <input type="checkbox" name="alcohol[]" value="Шампанское">
+        <input type="checkbox" name="алкоголь[]" value="Шампанское">
         <span>Шампанское</span>
       </label>
 
       <label class="checkbox-label">
-        <input type="checkbox" name="alcohol[]" value="Виски">
+        <input type="checkbox" name="алкоголь[]" value="Виски">
         <span>Виски</span>
       </label>
 
       <label class="checkbox-label">
-        <input type="checkbox" name="alcohol[]" value="Ром">
+        <input type="checkbox" name="алкоголь[]" value="Ром">
         <span>Ром</span>
       </label>
 
       <label class="checkbox-label">
-        <input type="checkbox" name="alcohol[]" value="Самогон">
+        <input type="checkbox" name="алкоголь[]" value="Самогон">
         <span>Самогон</span>
       </label>
 
       <label class="checkbox-label">
-        <input type="checkbox" name="alcohol[]" value="Не пью">
+        <input type="checkbox" name="алкоголь[]" value="Не пью">
         <span>Не пью</span>
       </label>
 
@@ -208,7 +209,7 @@
       <label class="checkbox-label">
         <input
           type="checkbox"
-          name="restrictions"
+          name="ограничения"
           value="Не ем мясо"
         >
         <span>Не ем мясо</span>
@@ -217,7 +218,7 @@
       <input
         class="form-input"
         type="text"
-        name="allergy"
+        name="аллергии"
         placeholder="Аллергия на продукт"
       >
 
@@ -225,9 +226,13 @@
 
     <!-- КНОПКА -->
 
-    <button class="submit-btn" type="submit">
-      <img src="img/11.png" alt="">
-    </button>
+<button class="submit-btn" type="submit">
+  <img src="img/button-send.png" alt="">
+</button>
+
+<p class="form-success">
+  Анкета отправлена ✨
+</p>
 
   </form>
 

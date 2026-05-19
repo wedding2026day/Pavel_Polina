@@ -253,3 +253,16 @@ transition:opacity 1.4s ease;
 .animate.show{
 opacity:1;
 }
+
+/* УСПЕШНАЯ ОТПРАВКА */
+
+.form-success{
+display:none;
+margin-top:10px;
+text-align:center;
+
+/* НАСТРОЙКИ */
+font-size:18px;
+font-family:serif;
+color:#000000;
+}
