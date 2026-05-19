@@ -101,7 +101,8 @@
     <input
       class="form-input"
       type="text"
-      name="имя"
+      name="name"
+      data-label="ФИО"
       placeholder="Ваше ФИО"
       required
     >
@@ -110,7 +111,8 @@
     <input
       class="form-input"
       type="text"
-      name="ФИО +1"
+      name="plus_one"
+      data-label="ФИО +1"
       placeholder="ФИО +1 (необязательно)"
     >
 
@@ -125,7 +127,8 @@
       <label class="radio-label">
         <input
           type="radio"
-          name="Присутствие"
+          name="attendance"
+          data-label="Присутствие"
           value="Да, с удовольствием"
           required
         >
@@ -135,7 +138,8 @@
       <label class="radio-label">
         <input
           type="radio"
-          name="Присутствие"
+          name="attendance"
+          data-label="Присутствие"
           value="К сожалению, не смогу"
         >
         <span>К сожалению, не смогу</span>
@@ -152,47 +156,47 @@
       </p>
 
       <label class="checkbox-label">
-        <input type="checkbox" name="алкоголь[]" value="Водка">
+        <input type="checkbox" name="alcohol[]" data-label="Алкоголь" value="Водка">
         <span>Водка</span>
       </label>
 
       <label class="checkbox-label">
-        <input type="checkbox" name="алкоголь[]" value="Коньяк">
+        <input type="checkbox" name="alcohol[]" data-label="Алкоголь" value="Коньяк">
         <span>Коньяк</span>
       </label>
 
       <label class="checkbox-label">
-        <input type="checkbox" name="алкоголь[]" value="Белое вино">
+        <input type="checkbox" name="alcohol[]" data-label="Алкоголь" value="Белое вино">
         <span>Белое вино</span>
       </label>
 
       <label class="checkbox-label">
-        <input type="checkbox" name="алкоголь[]" value="Красное вино">
+        <input type="checkbox" name="alcohol[]" data-label="Алкоголь" value="Красное вино">
         <span>Красное вино</span>
       </label>
 
       <label class="checkbox-label">
-        <input type="checkbox" name="алкоголь[]" value="Шампанское">
+        <input type="checkbox" name="alcohol[]" data-label="Алкоголь" value="Шампанское">
         <span>Шампанское</span>
       </label>
 
       <label class="checkbox-label">
-        <input type="checkbox" name="алкоголь[]" value="Виски">
+        <input type="checkbox" name="alcohol[]" data-label="Алкоголь" value="Виски">
         <span>Виски</span>
       </label>
 
       <label class="checkbox-label">
-        <input type="checkbox" name="алкоголь[]" value="Ром">
+        <input type="checkbox" name="alcohol[]" data-label="Алкоголь" value="Ром">
         <span>Ром</span>
       </label>
 
       <label class="checkbox-label">
-        <input type="checkbox" name="алкоголь[]" value="Самогон">
+        <input type="checkbox" name="alcohol[]" data-label="Алкоголь" value="Самогон">
         <span>Самогон</span>
       </label>
 
       <label class="checkbox-label">
-        <input type="checkbox" name="алкоголь[]" value="Не пью">
+        <input type="checkbox" name="alcohol[]" data-label="Алкоголь" value="Не пью">
         <span>Не пью</span>
       </label>
 
@@ -209,7 +213,8 @@
       <label class="checkbox-label">
         <input
           type="checkbox"
-          name="ограничения"
+          name="restrictions"
+          data-label="Ограничения"
           value="Не ем мясо"
         >
         <span>Не ем мясо</span>
@@ -218,7 +223,8 @@
       <input
         class="form-input"
         type="text"
-        name="аллергии"
+        name="allergy"
+        data-label="Аллергия"
         placeholder="Аллергия на продукт"
       >
 
